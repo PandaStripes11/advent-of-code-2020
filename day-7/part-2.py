@@ -20,10 +20,10 @@ def handy_haversacks(color):
 
         total += counter * handy_haversacks(color)
 
-    return total
+    return total + 1
 
 total = handy_haversacks('shiny gold')
-print(total)
+print(total - 1)
 
 
 
